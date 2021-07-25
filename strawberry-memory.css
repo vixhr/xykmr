@@ -16,6 +16,7 @@
     float: none;
     clear: right;
     height: 416px;
+    margin-bottom:0;
 }
 
 .sutomemo-shops {
@@ -24,4 +25,21 @@
     width: 500px;
     font-size:larger;
     columns: 2;
+}
+
+.pi-theme-sm-chapterList {
+    float:left;
+    clear:left;
+    margin:auto;
+    width:100%
+}
+
+.sm-chapters {
+    overflow-y: scroll!important;
+    overflow-x: hidden;
+    padding: 10px;
+    width: 800px;
+    font-size: larger;
+    columns: 2;
+    max-height: 220px;
 }
