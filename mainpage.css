@@ -20,7 +20,7 @@
     background: linear-gradient(#ff4f61, #ff4f61) left bottom no-repeat;
     font-size: 36pt;
     font-weight: bold;
-    color: white;
+    color:black;
     line-height: 45px;
     position: absolute;
     top: 450px;
@@ -58,4 +58,25 @@
 
 .m-hoverimg img {
     transition: all 0.3s ease;
+}
+
+.beta-homepage {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+.home-left-column {
+    display: inline-block;
+    flex: 100 1 80%;
+}
+
+.home-right-column {
+    flex: 1 1 300px;
+    margin: 0px 40px;
+}
+
+.home-widget-wrapper, .home-right {
+    display: flex;
+    flex-wrap: wrap;
 }
