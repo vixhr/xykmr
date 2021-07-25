@@ -1,0 +1,41 @@
+.member-image img {
+    height: 400px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.mp-root {
+  position:relative;
+  background:linear-gradient(45deg,  #f4df56 , transparent);
+  height: 400px;
+  width: 200px;
+  border:3px solid lightgray;
+  border-radius:4px;
+}
+
+.mp-root img {
+    object-position:top;
+}
+
+.mp-colon {
+    position: relative;
+    background: linear-gradient(45deg, #52bdf6 , transparent);
+    height: 400px;
+    width: 200px;
+    border: 3px solid lightgray;
+    border-radius: 4px;
+}
+
+.mp-colon img {
+    object-position: 20% 0%;
+}
+
+.membertext {
+    position: absolute;
+    top: 360px;
+    color: white;
+    font-weight: 900;
+    font-size: 150%;
+    text-shadow: 1px 1px black;
+    pointer-events: none;
+}
