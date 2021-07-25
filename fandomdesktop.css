@@ -1,0 +1,682 @@
+/* Userpages */
+.theme-fandomdesktop-light #userProfileApp {
+	background: url("http://strawberryprince.com/common/img/top_profile_satomi_bg.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+
+.theme-fandomdesktop-dark .WikiaBarCollapseWrapper .wikia-bar-collapse, .theme-fandomdesktop-dark .WikiaBarWrapper {
+	background-color:black;
+}
+
+.theme-fandomdesktop-dark .WikiaBarWrapper .tools-menu {
+	background:black;
+}
+
+.theme-fandomdesktop-dark .WikiaBarWrapper .tools-menu>li>a {
+	color:white;
+}
+
+/* Right rail */
+.page__right-rail {
+	--right-rail-background-color:var(--theme-page-background-color);
+    background-color:var(--theme-page-background-color);
+}
+
+body.page-Discography .page.has-right-rail {
+	display:block;
+}
+
+body.page-Discography .WikiaRail, body.page-Discography .right-rail-toggle {
+	display:none;
+}
+
+
+.pi-europa .pi-header, .pi-europa .pi-title {
+	color: #fff !important;
+    text-align: center;
+}
+
+.portable-infobox .pi-header,
+.portable-infobox .pi-title,
+.pi-theme-chapterbox .pi-secondary-background {
+    text-align: center;
+    background-color: #f1708b;
+    padding: 5px;
+    color:white !important;
+}
+
+.portable-infobox {
+	--pi-secondary-background--label:#fff;
+}
+
+
+/* Override wikia styles */
+.wikia-slideshow-images-wrapper {
+    padding: 0;
+}
+ 
+.wikiaPhotoGallery-slider-body,
+.wikia-slideshow-images-wrapper,
+.wikia-slideshow-images,
+.wikia-gallery-item .thumb .gallery-image-wrapper.accent {
+    background-color: transparent;
+}
+.wikia-slideshow-images-wrapper.accent,
+.wikiaPhotoGallery-slider-body,
+.wikia-gallery-border-small .thumb .gallery-image-wrapper {
+    border: none;
+}
+.page-header__separator {
+	height: 2px;
+	background-image: url("https://static.wikia.nocookie.net/strawberry-prince/images/6/66/Bg_line.png");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: 13px;
+	background-color: transparent;
+}
+
+/* Rail */
+
+body.page-Discography {
+ width:100%!important 
+}
+
+body.page-Discography #WikiaRailWrapper {
+ display:none!important 
+}
+
+/******************************************************************
+project - discography-nav
+******************************************************************/
+.p-discography-nav { background-color: #fe4e5f; position: relative; z-index: +5; }
+
+.p-discography-nav::before { height: 20px; content: ""; position: absolute; left: 0; width: 100%; }
+
+.p-discography-nav::before { top: -20px; background: linear-gradient(45deg, #fe4e5f 10px, transparent 0), linear-gradient(315deg, #fe4e5f 10px, transparent 0); background-size: 20px 20px; }
+
+.p-discography-nav__inner { max-width: 1100px; margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; padding-top: 1.5rem; padding-bottom: 1.5rem; }
+
+@media screen and (max-width: 736px) { .p-discography-nav__inner { padding: 12px; } }
+
+/******************************************************************
+project - discography-top
+******************************************************************/
+@media screen and (max-width: 736px) { .p-discography-top { font-size: 90%; } }
+
+.p-discography-top a { text-decoration: none; }
+
+@media print, screen and (min-width: 737px) { .p-discography-top__item { display: flex; margin-top: 10px; }
+  .p-discography-top__menbers { display: flex; }
+  .p-discography-top__menber { margin-right: 10px; } }
+
+@media screen and (max-width: 736px) { .p-discography-top__item { display: block; margin-top: 6px; }
+  .p-discography-top__menbers { display: flex; flex-wrap: wrap; }
+  .p-discography-top__menber { margin-right: 5px; } }
+
+.p-discography-top__menber { display: block; }
+
+.p-discography-top__menber span { box-sizing: border-box; display: inline-block; background-color: #fe4e5f; border-radius: 6px; color: #fff; min-width: 5.5em; text-align: center; font-weight: bold; }
+
+.p-discography-top__menber--satomi span { background-color: #ef48b1; }
+
+.p-discography-top__menber--rinu span { background-color: #ef270d; }
+
+.p-discography-top__menber--nanamori span { background-color: #a931c0; }
+
+.p-discography-top__menber--jel span { background-color: #ff4d00; }
+
+.p-discography-top__menber--root span { background-color: #f0b400; }
+
+.p-discography-top__menber--coron span { background-color: #00bde1; }
+
+.p-discography-top__name { display: block; font-weight: bold; }
+
+.p-discography-top__anker { display: block; }
+
+.p-discography-top__anker { font-size:150%; }
+
+@media print, screen and (min-width: 737px) { .p-discography-top__anker { margin-top: 10px; position: relative; padding-left: 7.5px; padding-left: 14px; font-size: 90%; }
+  .p-discography-top__anker::after { position: absolute; content: ""; margin: auto; box-sizing: border-box; vertical-align: middle; top: 0; left: 0; transform: translate(7.5px, 0.8em) rotate(135deg); transform-origin: top left; border-top: 2px solid #fe4e5f; border-left: 2px solid #fe4e5f; width: 8px; height: 8px; transition-property: top, right, bottom, left; transition-duration: 0.3s; } }
+
+@media screen and (max-width: 736px) { .p-discography-top__anker { margin-top: 4px; position: relative; padding-left: 6px; padding-left: 10px; font-size: 80%; }
+  .p-discography-top__anker::after { position: absolute; content: ""; margin: auto; box-sizing: border-box; vertical-align: middle; top: 0; left: 0; transform: translate(6px, 0.8em) rotate(135deg); transform-origin: top left; border-top: 2px solid #fe4e5f; border-left: 2px solid #fe4e5f; width: 6px; height: 6px; transition-property: top, right, bottom, left; transition-duration: 0.3s; } }
+
+/******************************************************************
+project - discography-head
+******************************************************************/
+.p-discography-head { text-align: center; }
+
+@media print, screen and (min-width: 737px) { .p-discography-head h1 { display: flex; justify-content: center; align-items: center; }
+  .p-discography-head__menber { margin-right: 10px; } }
+
+.p-discography-head__menber { display: block; font-size: 1.2rem; }
+
+.p-discography-head__menber span { box-sizing: border-box; display: inline-block; background-color: #fe4e5f; border-radius: 6px; color: #fff; min-width: 5.5em; text-align: center; font-weight: bold; }
+
+.p-discography-head__menber--satomi span { background-color: #ef48b1; }
+
+.p-discography-head__menber--rinu span { background-color: #ef270d; }
+
+.p-discography-head__menber--nanamori span { background-color: #a931c0; }
+
+.p-discography-head__menber--jel span { background-color: #ff4d00; }
+
+.p-discography-head__menber--root span { background-color: #f0b400; }
+
+.p-discography-head__menber--coron span { background-color: #00bde1; }
+
+.p-discography-head p { font-weight: bold; }
+
+/******************************************************************
+project - discography-buy
+******************************************************************/
+.p-discography-buy { background-color: #ffe3e4; border: 2px dotted #fe4e5f; border-radius: 1rem; padding: 1.5rem 1.9rem; }
+
+@media screen and (max-width: 736px) { .p-discography-buy { border-radius: 0.75rem; padding: 1.125rem; } }
+
+.p-discography-buy__head { color: #fe4e5f; }
+
+@media print, screen and (min-width: 737px) { .p-discography-buy__head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; } }
+
+@media screen and (max-width: 736px) { .p-discography-buy__head { margin-bottom: 0.75rem; } }
+
+.p-discography-buy__head h2 { font-size: 1.1rem; }
+
+@media screen and (max-width: 736px) { .p-discography-buy__head h2 { font-size: 0.99rem; } }
+
+.p-discography-buy__head p { font-size: 1rem; }
+
+@media screen and (max-width: 736px) { .p-discography-buy__head p { font-size: 0.9rem; } }
+
+.p-discography-buy__item { text-align: center; }
+
+.p-discography-buy__item img { border-radius: 6px; }
+
+/******************************************************************
+project - discography-detail
+******************************************************************/
+.p-discography-detail__title { color: #fe4e5f; border-bottom: 4px solid #fe4e5f; }
+
+/******************************************************************
+project - sort-check2
+******************************************************************/
+.p-sort-check2__menu { display: flex; flex-wrap: wrap; justify-content: center; margin-top: -1rem; }
+
+@media screen and (max-width: 736px) { .p-sort-check2__menu { display: none; } }
+
+.p-sort-check2__menu-item { margin-right: 0.5rem; margin-top: 0.5rem; }
+
+.p-sort-check2__button { color: inherit; text-decoration: none; display: inline-block; text-align: center; cursor: pointer; vertical-align: middle; box-sizing: border-box; border: 1px solid transparent; line-height: 1.5; transition-property: all; transition-duration: 0.3s; padding: 0.2em 0.6em; color: #ffffff !important; font-weight: bold; font-size: 110%; }
+
+.p-sort-check2__button:hover:not(:disabled):not(.disabled) { color: inherit; text-decoration: none; }
+
+@media print, screen and (max-width: 900px) { .p-sort-check2__button { font-size: 100%; } }
+
+.p-sort-check2__button:not(.is-active).is-hover { background-color: #bf3b48; }
+
+.p-sort-check2__button.is-active { background-color: #982f39; }
+
+.p-sort-check2__select { display: block; width: 100%; position: relative; box-sizing: border-box; color: #fff; }
+
+@media print, screen and (min-width: 737px) { .p-sort-check2__select { display: none; } }
+
+.p-sort-check2__head { position: relative; display: block; padding: 0.5em 1.9em 0.5em 0.5em; color: inherit; text-decoration: none; transition-property: background; transition-duration: 0.3s; background-color: #fe4e5f; border-bottom: 1px solid #fe818d; }
+
+.p-sort-check2__head:hover:not(:disabled):not(.disabled) { color: inherit; text-decoration: none; }
+
+.p-sort-check2__head::before { content: ""; position: absolute; margin: auto; top: 0; bottom: 0.3em; right: 0.9em; width: 5px; height: 5px; border-top: 2px solid #fff; border-right: 2px solid #fff; transform: rotate(135deg); }
+
+.p-sort-check2__body { position: absolute; box-sizing: border-box; width: 100%; z-index: +1; background-color: #ffeaba; color: #805900; }
+
+.p-sort-check2__option { position: relative; display: block; cursor: pointer; padding: 0.5em 1em 0.5em 1.5em; color: inherit; text-decoration: none; transition-property: background; transition-duration: 0.3s; }
+
+.p-sort-check2__option:hover:not(:disabled):not(.disabled) { color: inherit; text-decoration: none; }
+
+.p-sort-check2__option:hover:not(:disabled):not(.disabled) { background-color: #f1f1f1; }
+
+.p-sort-check2__option.is-active::before { position: absolute; content: ""; margin: auto; box-sizing: border-box; vertical-align: middle; top: 0; bottom: 3px; left: 9px; width: 6px; height: 9px; border-bottom: 2px solid #805900; border-right: 2px solid #805900; transform: rotate(40deg); }
+
+.p-sort-check2__item.is-hidden { transition-property: opacity; transition-duration: 0.3s; opacity: 0; }
+
+.p-sort-check2__item.is-active { animation: p-sort-check2-ani 0.2s ease-out 0s 1 forwards; }
+
+
+/******************************************************************
+component - grid2
+******************************************************************/
+.c-grid2 { display: flex; flex-wrap: wrap; margin-right: -1rem; margin-top: -1rem; }
+
+.c-grid2--center { justify-content: center; }
+
+.c-grid2--right { justify-content: flex-end; }
+
+.c-grid2 > [class*="c-grid2__item"], .c-grid2 > .c-grid2__item5col { position: relative; box-sizing: border-box; margin-right: 1rem; margin-top: 1rem; }
+
+.c-grid2 > .c-grid2__item1 { width: calc( 8.33333% - 1rem); }
+
+.c-grid2 > .c-grid2__item2 { width: calc( 16.66667% - 1rem); }
+
+.c-grid2 > .c-grid2__item3 { width: calc( 25% - 1rem); }
+
+.c-grid2 > .c-grid2__item4 { width: calc( 33.33333% - 1rem); }
+
+.c-grid2 > .c-grid2__item5 { width: calc( 41.66667% - 1rem); }
+
+.c-grid2 > .c-grid2__item6 { width: calc( 50% - 1rem); }
+
+.c-grid2 > .c-grid2__item7 { width: calc( 58.33333% - 1rem); }
+
+.c-grid2 > .c-grid2__item8 { width: calc( 66.66667% - 1rem); }
+
+.c-grid2 > .c-grid2__item9 { width: calc( 75% - 1rem); }
+
+.c-grid2 > .c-grid2__item10 { width: calc( 83.33333% - 1rem); }
+
+.c-grid2 > .c-grid2__item11 { width: calc( 91.66667% - 1rem); }
+
+.c-grid2 > .c-grid2__item12 { width: calc( 100% - 1rem); }
+
+.c-grid2 > .c-grid2__item5col { width: calc( 20% - 1rem); }
+
+.c-grid2--vertical > [class*="c-grid2__item"], .c-grid2--vertical > .c-grid2__item5col { display: flex; align-items: center; }
+
+/*Tooltips*/
+.main-tooltip {
+    margin-bottom: 5px;
+    padding: 2px 5px;
+    background:#fcf5f9;
+    font-size: 90%;
+    border: none;
+	border-radius: 5px;
+}
+
+/*** Cover table ***/
+/** stpr **/
+table.covers th {
+	  background-color:#E76F8B; color:white;
+	  border:1px solid black;
+}
+table.covers td {
+ border:1px solid black;
+  text-align:center;
+}
+
+/** nanamori **/
+table.covers--nanamori th {
+	background-color:#a0679c; color:white;
+}
+table.covers--nanamori td {
+ border:1px solid black;
+  text-align:center;
+}
+
+/** jel **/
+table.covers--jel th {
+	background-color:#ff9851; color:white;
+}
+table.covers--jel td {
+ border:1px solid black;
+  text-align:center;
+}
+
+/** satomi **/
+table.covers--satomi th {
+	background-color:#fd6b9f; color:white;
+}
+table.covers--satomi td {
+ border:1px solid black;
+  text-align:center;
+}
+	
+/** colon **/
+table.covers--colon th {
+	background-color:#0eb4f0; color:white;
+}
+table.covers--colon td {
+ border:1px solid black;
+  text-align:center;
+}
+
+/** root **/
+table.covers--root th {
+	background-color:#ffc956; color:white; border:1px solid black;
+}
+table.covers--root td {
+ border:1px solid black;
+  text-align:center;
+}
+
+/** riinu **/
+table.covers--riinu th {
+	background-color:#cd222a; color:white
+}
+table.covers--riinu td {
+ border:1px solid black;
+ text-align:center;
+}
+/*********************/
+.pi-theme-fifth {
+ float:left;
+ margin:auto;
+ width:20%;
+}
+
+.fifthanniv {	
+	background: url(https://strawberryprince.com/5th/common/img/logo.svg);
+}
+
+#WikiaAdInContentPlaceHolder, .rail-sticky-module {
+	display:none;
+}
+
+.c-section__vertical--discography ul {
+	list-style:none;
+}
+
+/*=======*/
+/* Tiles */
+/*=======*/
+ 
+.tiles {
+    border-spacing: 0;
+    margin: 0 auto;
+    max-width: 750px;
+    table-layout: fixed;
+    width: 98%;
+}
+ 
+.tiles td {
+    box-shadow: 0 0 10px #000;
+    outline: 1px solid #000;
+    position: relative;
+}
+ 
+.tiles td > div {
+    height: 150px;
+    overflow: hidden;
+}
+ 
+.tiles__description a {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    color: #fff !important;
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    left: 0;
+    height: 100%;
+    max-height: 100%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #000, 2px 1px 0 #000, 1px 2px 0 #000, 2px 2px 0 #000, 3px 3px 4px #000;
+    text-transform: uppercase;
+    z-index: 1;
+}
+ 
+.tiles td:hover .tiles__description a {
+    background-color: rgba(0, 0, 0, 0.8);
+    max-height: 35px;
+    transition: background-color 0.5s, max-height 0.5s;
+}
+
+/* Template:Dl */
+
+.p-dl {
+    background-color: #faf9d0;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.p-dl__inner {
+    display: flex;
+    align-items: center;
+}
+
+.c-image-youtube {
+    position: relative;
+    display: inline-block;
+}
+
+.u-over-scale-img {
+    display: block;
+    overflow: hidden;
+}
+
+.p-dl__body {
+    width: calc(100% - 250px - 200px);
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+
+.p-dl__btn {
+    width: 200px;
+    text-align: center;
+}
+
+.c-heading3 {
+    color: #f6ae00;
+}
+
+.c-button--bg {
+    background-color: #ffb400;
+    font-weight: bold;
+    color: #fff !important;
+    border-radius: 4em;
+}
+
+.c-button--bg a:link {
+	color:#fff !important;
+}
+
+.page-content h2 {
+	border-bottom:1px solid #fe4e5f;
+	padding:6px 0 6px;
+}
+
+/* https://www.fontsquirrel.com/license/jellee */
+@font-face {
+	font-family: "Jellee Roman";
+	src: url("https://static.wikia.nocookie.net/bandori/images/9/94/Jellee.roman.ttf/revision/latest?cb=20210303103030") format("truetype");
+	unicode-range: U+0020-005D, U+005F-007D, U+00A1-00A5, U+00A7-00A9,
+        U+00AB, U+00AE, U+00B4, U+00B8, U+00BB, U+00BF-00CF, U+00D1-00D6,
+        U+00D9-00DC, U+00E0-00EF, U+00F1-00F6, U+00F9-00FC, U+00FF, U+0131,
+        U+0152-0153, U+0178, U+02C6, U+02DA, U+02DC, U+0300-0303, U+0308,
+        U+030A, U+0327, U+2013-2014, U+2018-201A, U+201C-201E, U+2020, U+2022,
+        U+2026, U+2030, U+2039-203A, U+20AC, U+2122, U+FB01-FB02;
+}
+
+.jellee { font-family:"Jellee Roman"; }
+
+/* Hover */  
+.hoverimage img {
+   transition: all 0.2s ease;
+}
+ 
+.hoverimage img {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+   opacity: 1;
+   filter: alpha(opacity=100);
+}
+
+.hoverimage img:hover {
+   opacity: 0.5;
+}
+
+ul.mw-gallery-traditional li.gallerybox .thumb {
+	background-color:transparent;
+}
+
+li.gallerybox div.thumb {
+	border:none;
+}
+
+.portable-infobox .pi-title {
+	border-radius:3px;
+}
+
+/* Adjusting wds tabs on specific pages */
+body.page-Believe .wds-tabs__tab {
+ width:32%;
+}
+
+body.page-Strawberry_Prince_Album .wds-tabs {
+	justify-content:left!important;
+}
+
+.pi-theme-timecapsule .wds-tabs__tab {
+	width:32%;
+}
+
+.pi-theme-timecapsule .pi-header, .pi-theme-timecapsule .pi-title {
+	background-color:#cd222a;
+}
+
+.pi-theme-aster .pi-header, .pi-theme-aster .pi-title {
+  background-color:#0eb4f0;
+}
+
+body.page-Memories .wds-tabs__tab, .pi-theme-aster .wds-tabs__tab, body.page-Strawberry_Love .wds-tabs__tab {
+ width:50%;
+}
+
+.wds-tabs__tab {
+	text-align:center;
+}
+
+/* themes */
+.pi-theme-nanamori .pi-header, .pi-theme-nanamori .pi-title {
+	background-color:#a0679c;
+}
+
+/** jel **/
+.pi-theme-jel .pi-header, .pi-theme-jel .pi-title {
+	background-color:#ff9851;
+}
+/** satomi **/
+.pi-theme-satomi .pi-header, .pi-theme-satomi .pi-title {
+	background-color:#fd6b9f;
+}
+	
+/** colon **/
+.pi-theme-colon .pi-header, .pi-theme-colon .pi-title {
+	background-color:#0eb4f0;
+}
+/** root **/
+.pi-theme-root .pi-header, .pi-theme-root .pi-title {
+	background-color:#ffc956;
+}
+
+/** riinu **/
+.pi-theme-riinu .pi-header, .pi-theme-riinu .pi-title {
+	background-color:#cd222a;
+}
+
+.page__main .wds-tabs {
+    justify-content: center;
+}
+
+.vid {
+	width:400px;
+	height:230px;
+	border:1px solid #f1708b;
+	border-radius:8px;
+	overflow:hidden;
+}
+
+.vid2 {
+	width:600px;
+	height:350px;
+	border:1px solid #f1708b;
+	border-radius:8px;
+	overflow:hidden;
+}
+
+/* Header text customization */
+.fandom-community-header {
+	--theme-body-text-color:#fff;
+	--theme-body-text-color--hover:#cccccc;
+}
+
+.fandom-community-header__community-name-wrapper {
+	font-weight:bold !important;
+}
+
+.fandom-sticky-header, .fandom-sticky-header__sitename a {
+	--theme-sticky-nav-text-color:#fff;
+	--theme-sticky-nav-text-color--hover:#cccccc;
+}
+
+/* Toolbar text customization*/
+.WikiaBarWrapper .tools, .WikiaBarWrapper .tools>li>a, .WikiaBarWrapper .arrow .close-icon, .wikia-bar-collapse .wds-icon-small, .WikiaBarWrapper .tools .wds-dropdown__toggle>a, .WikiaBarWrapper .tools>li>a {
+	color:white;
+}
+
+.WikiaBarWrapper .tools>li {
+    border-right: 1px solid rgba(255,255,255,.25);
+}
+
+.theme-fandomdesktop-dark .WikiaBarWrapper .tools-menu {
+	background:transparent;
+}
+
+/****** custom header bgs for certain song pages *****/
+/* riinu */
+
+body.page-Ruma, body.page-Time_Capsule, body.page-Iindayo, body.page-Kimi_Ga_Hou_Suki_Dakedo, body.page-Uchuu-Shinpi-Bugi {
+	background-color:#fb0544;
+}
+
+.page-Ruma .fandom-community-header__background:before, .page-Time_Capsule .fandom-community-header__background:before, .page-Iindayo .fandom-community-header__background:before, .page-Kimi_Ga_Hou_Suki_Dakedo .fandom-community-header__background:before, .page-Uchuu-Shinpi-Bugi .fandom-community-header__background:before {
+	background-image:linear-gradient(to bottom,rgba(251, 5, 68,0) 25%,#fb0544);
+}
+.page-Ruma .fandom-community-header__background, .page-Time_Capsule .fandom-community-header__background, .page-Iindayo .fandom-community-header__background, .page-Kimi_Ga_Hou_Suki_Dakedo .fandom-community-header__background, .page-Uchuu-Shinpi-Bugi .fandom-community-header__background {
+background:url(https://static.wikia.nocookie.net/flanural/images/4/4d/Ruma.jpg/revision/latest?cb=20210714190639) no-repeat;
+}
+
+/* colon */
+body.page-Aster, body.page-404, body.page-Haiboku_Hero, body.page-Haiboku_no_Mirai_Chizu, body.page-Lazy_Crazy {
+	background-color:#86c4ff;
+}
+
+.page-404 .fandom-community-header__background:before, .page-Aster .fandom-community-header__background:before, .page-Haiboku_no_Mirai_Chizu .fandom-community-header__background:before, .page-Haiboku_Hero .fandom-community-header__background:before, .page-Lazy_Crazy .fandom-community-header__background:before {
+	background-image:linear-gradient(to bottom,rgba(134, 196, 255,0) 25%,#86c4ff);
+}
+.page-404 .fandom-community-header__background, .page-Aster .fandom-community-header__background, .page-Haiboku_no_Mirai_Chizu .fandom-community-header__background, .page-Haiboku_Hero .fandom-community-header__background, .page-Lazy_Crazy .fandom-community-header__background {
+background:url(https://static.wikia.nocookie.net/flanural/images/2/28/Haiboku_h.png/revision/latest) no-repeat;
+}
+
+/* jel (just poker dance) */
+
+body.page-Poker_Dance {
+	background-color:#c40101;
+}
+
+.page-Poker_Dance .fandom-community-header__background:before {
+	background-image:linear-gradient(to bottom,rgba(196, 1, 1,0) 25%,#c40101);
+}
+.page-Poker_Dance .fandom-community-header__background {
+background:url(https://static.wikia.nocookie.net/flanural/images/8/87/Poker_dance.jpg/revision/latest);
+}
+
+.mp-logo img {
+	top:450px;
+	position:absolute;
+	margin:0 0 10px 20px;
+	clear:right;
+	float:right;
+}
+
+.theme-fandomdesktop-light .page.has-right-rail {
+	box-shadow:7px 1px 3px rgb(255 79 96 / 20%);
+}
