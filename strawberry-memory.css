@@ -35,11 +35,8 @@
 }
 
 .sm-chapters {
-    overflow-y: scroll!important;
-    overflow-x: hidden;
     padding: 10px;
     width: 800px;
     font-size: larger;
     columns: 2;
-    max-height: 220px;
 }
