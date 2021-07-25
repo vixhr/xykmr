@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.shops img {
+	border-radius:4px;
+	margin-bottom:5px;
+}
+
+.shops {
+	justify-content:center;
+}
+.WikiaArticle, .wds-community-header__sitename, .wds-community-header__top-container, .wds-community-header__local-navigation, .page .has-right-rail {
+	font-family:'M PLUS 1p', 'Montserrat', sans-serif;
+}
+
+body, body.skin-fandomdesktop {
+	font-family:'M PLUS 1p', 'Montserrat', sans-serif;
+}
+
+.mw-headline {
+	color:#fe4e5f !important;
+	font-family:'M PLUS 1p';
+}
+
+.page-header__title {
+	font-family:'M PLUS 1p';
+	font-weight:bolder;
+}
+
+.WikiaMainContent h2 {
+	border-bottom:1px solid #fe4e5f;
+}
+
+.WikiaRail .rail-module h2 {
+	font-family:'M PLUS 1p';
+}
+
+.stprheader h1 h2 h3 h4 h5 h6 p {
+	color:#fff !important;
+}
+
+.activity-module .page-title {
+	margin-bottom:0.2px;
+}
+
+.c-heading3 {
+    color: #f6ae00 !important;
+}
+
+.member img:hover {
+	transition: all 0.4s ease;
+    transform:scaleX(1.05) scaleY(1.05);
+    cursor:pointer;
+}
+
+.circ img {
+	border-radius:50%;
+}
+
+::selection {
+	color:white;
+	background:rgba(254, 78, 95, 0.5);
+}
+
+/* Mbox */
+.theme-fandomdesktop-light .mbox {
+	background-color:#f0f0f0;
+	border-color:#d6d6d6;
+}
+
+.theme-fandomdesktop-dark .mbox {
+	background-color:black;
+}
+
+.mbox {
+	background-color:#f0f0f0;
+	border-radius:3px;
+	border:1px solid var(--mbox-border-color);
+	margin-bottom:5px;
+	padding:10px 5px;
+	display:flex;
+	border-left:8px solid;
+	border-left-color:var(--mbox-border-color) !important;
+	max-width:800px;
+}
+
+.mbox__content__image {
+    display: table-cell;
+    width: 40px;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+.mbox__content__wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mbox__content__header {
+    font-weight: 900;
+    font-size: 110%;
+}
+
+.mbox__content__aside {
+    display: table-cell;
+    width: 100px;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 15px;
+    border-left: 1px solid #d6d6d6;
+}
+
+.mbox__content {
+	display:table;
+	width:100%;
+}
+.mbox__content__text__comment {
+	font-size:small;
+}
