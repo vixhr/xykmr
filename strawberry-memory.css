@@ -1,5 +1,5 @@
 /** css code for magazine pages **/
-
+/* sutomemo */
 .sutomemo-wrapper .pi-header, .sutomemo-wrapper .pi-title {
     padding: 7px;
     font-size:16px;
@@ -39,4 +39,37 @@
     width: 800px;
     font-size: larger;
     columns: 2;
+}
+/* fanbooks */
+.pi-theme-fanbook {
+    float:left;
+    clear:left;
+    margin:auto;
+    border:none;
+}
+
+.pi-theme-fanbook2 {
+    width: auto;
+    float: none;
+    clear: right;
+    height: 413px;
+    border:none;
+}
+
+.fanbook-wrapper .pi-title, .fanbook-wrapper .pi-header {
+    border:none;
+    border-radius:0;
+}
+
+.pi-theme-fanbook2 .pi-header:first-child {
+    font-size: 18px;
+}
+
+.pi-theme-fanbook2 .pi-header {
+    text-align: left!important;
+    padding-left: 10px!important;
+}
+
+.fanbook-illust {
+    padding-left:10px;
 }
