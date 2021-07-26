@@ -111,3 +111,30 @@
     padding: 0 3px;
     vertical-align: top;
 }
+
+/* infobox */
+.portable-infobox {
+    position:relative;
+    margin-right:8px;
+    border: 2px solid #f1708b;
+    padding-left:10px;
+    border-radius: 15px 5px 5px 5px;
+}
+
+.portable-infobox .pi-title {
+    border-radius:0;
+}
+
+/* imitates box shadow using menu_bg from the website */
+.portable-infobox::after {
+    content: "";
+    opacity: 0.2;
+    background: url(http://strawberryprince.com/common/img/menu_bg.png);
+    position: absolute;
+    width: 100%;
+    left: 268px;
+    top: 5px;
+    height: 99.8%;
+    width: 3%;
+    border-radius: 0 3px 3px 0;
+}
