@@ -1,0 +1,139 @@
+.fandom-community-header__background {
+	width:0;
+}
+
+body {
+	background-color:#c3e6f9;
+}
+
+.fandom-community-header, .fandom-community-header a, .wiki-tools .wds-button.wds-is-secondary {
+	color:#000;
+}
+
+.WikiaBarWrapper .toolbar, .WikiaBarWrapper .tools>li>a, {
+	color:#000;
+}
+
+.WikiaBarWrapper .arrow .close-icon {
+	background-color:black;
+}
+
+.main-container .wds-icon {
+	fill:black;
+}
+
+.fandom-sticky-header {
+    background-color: #c3e6f9;
+}
+
+.fandom-sticky-header a, .fandom-sticky-header {
+	color:black;
+}
+
+.main-container .toctogglespan .toctogglelabel, .wds-link, a, ul.gallery.mw-gallery-slideshow .gallerycarousel > div .mw-gallery-slideshow-caption a, ul.gallery.mw-gallery-slideshow li.gallerybox .gallerytext a {
+	color:#006cb0;
+}
+
+.toctogglespan .toctogglelabel:active, .toctogglespan .toctogglelabel:focus, .toctogglespan .toctogglelabel:hover, .wds-link:active, .wds-link:focus, .wds-link:hover, a:active, a:focus, a:hover, ul.gallery.mw-gallery-slideshow .gallerycarousel > div .mw-gallery-slideshow-caption a:active, ul.gallery.mw-gallery-slideshow .gallerycarousel > div .mw-gallery-slideshow-caption a:focus, ul.gallery.mw-gallery-slideshow .gallerycarousel > div .mw-gallery-slideshow-caption a:hover, ul.gallery.mw-gallery-slideshow li.gallerybox .gallerytext a:active, ul.gallery.mw-gallery-slideshow li.gallerybox .gallerytext a:focus, ul.gallery.mw-gallery-slideshow li.gallerybox .gallerytext a:hover {
+	color:#17a5ff;
+}
+
+.wds-button.wds-is-text.wds-is-active, .wds-button.wds-is-text:active, .wds-button.wds-is-text:focus, .wds-button.wds-is-text:hover, .wds-button.wds-is-text, .wds-button.wds-is-text:disabled {
+	color:#006cb0;
+}
+
+.page-header__action-button:hover {
+    background-color: rgba(0,108,176,0.15);
+}
+
+.oo-ui-buttonElement-framed.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button, .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
+    background-color: #c3e6f9;
+    border-color: #c3e6f9;
+    color: black;
+}
+
+.oo-ui-buttonElement-framed.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:focus, .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:focus, .oo-ui-buttonElement-framed.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover, .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover, .oo-ui-buttonElement-framed.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:active, .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive.oo-ui-widget-enabled > .oo-ui-buttonElement-button:active {
+	background-color:#66bff0;
+	border-color:#66bff0;
+}
+
+.pi-secondary-background {
+    background: #c3e6f9;
+    color: black;
+}
+
+.fandom-sticky-header a:active, .fandom-sticky-header a:focus, .fandom-sticky-header a:hover, .fandom-community-header a:active, .fandom-community-header a:focus, .fandom-community-header a:hover {
+	color:#000;
+}
+
+.fandom-sticky-header, .main-container .wds-dropdown {
+    --wds-dropdown-linked-item-color: #006cb0;
+    --wds-dropdown-linked-item-background-color: rgba(0,108,176,0.1);
+}
+.pi-border-color {
+	border-color:rgba(195,230,249 ,0.9);
+}
+
+/* infoboxes */
+.pi-theme-fifth {
+ float:left;
+ margin:auto;
+ width:20% 
+}
+.pi-theme-song {
+ float:none;
+ margin:auto 
+}
+.pi-theme-calendar {
+ float:none;
+ margin:auto;
+ word-break:break-all;
+ width:100% 
+}
+.pi-theme-album {
+ float:left;
+ clear:left;
+ margin:auto;
+ border:none;
+}
+.pi-theme-anikora {
+ float:left;
+ clear:left;
+ margin:auto;
+ width:150px 
+}
+.pi-theme-tracklist,.pi-theme-tracklist2 {
+ float:none;
+ clear:right;
+ overflow:hidden;
+ width:auto;
+ border:none;
+}
+.pi-theme-tracklist .pi-smart-group {
+ text-align:left
+}
+.pi-theme-tracklist2 .pi-smart-group .pi-font {
+ line-height:200%
+}
+.portable-infobox.pi-theme-mobiletocfix {
+ display:none 
+}
+
+#userProfileApp .user-profile-navigation__link.is-active a {
+    color: #006cb0;
+}
+
+#userProfileApp .user-profile-navigation__link.is-active {
+    border-bottom: 4px solid #006cb0;
+    opacity: 1;
+}
+
+.wds-tabs, .wds-tabs__wrapper {
+	--wds-tab-color--active: #006cb0;
+}
+
+/* Right rail */
+.page__right-rail {
+	--right-rail-background-color:var(--theme-page-background-color);
+    background-color:var(--theme-page-background-color);
+}
