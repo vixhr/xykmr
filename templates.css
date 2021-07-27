@@ -140,7 +140,7 @@
 }
 /* tabs */
 .article-tabs {
-    border-bottom: var(--theme-border-color);
+    border-bottom:1px solid var(--theme-border-color);
     display: flex;
     justify-content: center;
     width: 100%;
