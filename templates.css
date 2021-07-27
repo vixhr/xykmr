@@ -138,3 +138,23 @@
     width: 3%;
     border-radius: 0 3px 3px 0;
 }
+/* tabs */
+.article-tabs {
+    border-bottom: var(--theme-border-color);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.article-tabs__selected {
+    border-color: var(--theme-border-color);
+    border-radius: 6px 6px 0 0;
+    border-style: solid;
+    border-width: 1px 1px 0 1px;
+}
+
+.article-tabs__tab {
+    flex-grow: 0.2;
+    padding: 5px;
+    text-align: center;
+}
