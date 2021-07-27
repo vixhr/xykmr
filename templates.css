@@ -158,3 +158,58 @@
     padding: 5px;
     text-align: center;
 }
+
+.jp-chara-name {
+    font-size: 90%;
+    color: white;
+    background: purple;
+    padding: 4px 9px;
+    width: 96.5%;
+    position: absolute;
+    left: 10px;
+}
+
+.chara-name {
+    color: purple;
+    font-size: 120%;
+    font-variant:small-caps;
+}
+
+.portable-infobox .pi-header[data-item-name="quote"] {
+    background: black;
+    padding-left:7px;
+    text-align:left;
+}
+
+.portable-infobox[data-item-name="tms-chara"] .pi-header {
+    background: #424140;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.portable-infobox[data-item-name="tms-chara"] .pi-title {
+    background: linear-gradient(48deg, #84FF00, gray);
+}
+
+.portable-infobox.pi-background {
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-top: 0;
+    background: var(--theme-infobox-background-color);
+    border: 2px double #84FF00;
+}
+
+.portable-infobox.pi-background[data-item-name="tms-chara"]::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    opacity: 0.3;
+    box-shadow: 6px 6px 0px 0px #84ff00;
+}
