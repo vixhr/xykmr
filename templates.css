@@ -213,3 +213,8 @@
     opacity: 0.3;
     box-shadow: 6px 6px 0px 0px #84ff00;
 }
+
+.pi-background, .pi-image-collection.wds-tabber {
+    padding-top: 15px;
+    background: black;
+}
