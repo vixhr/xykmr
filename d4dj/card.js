@@ -5,7 +5,7 @@ $( document ).ready(function() {
         $('body[class*="Cards"] .quote').addClass('cardQuote');
 });
 
-// addcategories - code creds jeaoq(kyuu)
+// addcategories - code creds jeaoq
 function addCategories(){
     (function($, mw) {
     var fn = function() {
