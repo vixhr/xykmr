@@ -125,3 +125,19 @@ li.wds-tabs__tab.wds-is-current {
     --wds-tab-color: white;
     --wds-tab-color--active: white
 }
+
+/* minor changes to themes */
+.portable-infobox.pi-theme-rinku .pi-item .wds-tabs__tab.wds-is-current .wds-tabs__tab-label, 
+.portable-infobox.pi-theme-rinku .pi-image-collection .wds-tabs__tab.wds-is-current .wds-tabs__tab-label, 
+.portable-infobox.pi-theme-boxrinku .pi-item .wds-tabs__tab.wds-is-current .wds-tabs__tab-label, 
+.portable-infobox.pi-theme-boxrinku .pi-image-collection .wds-tabs__tab.wds-is-current .wds-tabs__tab-label,
+.portable-infobox.pi-theme-maho .pi-item .wds-tabs__tab.wds-is-current .wds-tabs__tab-label, 
+.portable-infobox.pi-theme-maho .pi-image-collection .wds-tabs__tab.wds-is-current .wds-tabs__tab-label, 
+.portable-infobox.pi-theme-boxmaho .pi-item .wds-tabs__tab.wds-is-current .wds-tabs__tab-label, 
+.portable-infobox.pi-theme-boxmaho .pi-image-collection .wds-tabs__tab.wds-is-current .wds-tabs__tab-label, 
+.portable-infobox.pi-theme-muni .pi-item .wds-tabs__tab.wds-is-current .wds-tabs__tab-label, 
+.portable-infobox.pi-theme-muni .pi-image-collection .wds-tabs__tab.wds-is-current .wds-tabs__tab-label, 
+.portable-infobox.pi-theme-boxmuni .pi-item .wds-tabs__tab.wds-is-current .wds-tabs__tab-label, 
+.portable-infobox.pi-theme-boxmuni .pi-image-collection .wds-tabs__tab.wds-is-current .wds-tabs__tab-label{
+	color:#e7d4ff;
+}
