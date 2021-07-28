@@ -1,2 +1,6 @@
-// merge multiple story infoboxes
-// ill work onthis after i learn js. real #real
+                
+ $( document ).ready(function() {
+    mw.loader.using('mediawiki.api', function() {
+        $('body[class*="Transcripts"] .portable-infobox').addClass('story-transcript');
+    });
+});
