@@ -118,7 +118,7 @@ li.wds-tabs__tab.wds-is-current {
 
 .page__main .wds-tabs__tab.wds-is-current, 
 .page__main .wds-tabs__tab:not(.wds-is-current):hover, .page__main .wds-tabs__tab.wds-is-current a, .page__main .wds-tabs__tab:not(.wds-is-current) a:hover {
-    color: currentColor;
+    color:white;
 }
 
 .wds-tabs, .wds-tabs__wrapper {
