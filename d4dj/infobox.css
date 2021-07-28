@@ -1,20 +1,13 @@
 /* infobox redesign */
 
 .portable-infobox {
-    border: 2px solid #5EBDDA;
-    border-radius: 10px 5px;
-  background: rgba(89, 45, 180, 0.1);
-   position: relative;
-}
-
-.portable-infobox::before {
-    content: "";
     border: 1px solid #5EBDDA;
+    box-shadow: 0 0 0 3px #3e1283;
     border-radius: 10px 5px;
-    position: absolute;
-    display: block;
-    height: 100%;
-    width: 100%;
+    margin-right: 3px;
+    margin-left: 10px;
+    background: rgba(89,45,180,0.1);
+    position: relative;
 }
 
 .portable-infobox, .portable-infobox .pi-title, .portable-infobox .pi-caption {
