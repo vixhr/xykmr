@@ -1,0 +1,73 @@
+/* infobox redesign */
+
+.portable-infobox {
+    border: 2px solid #5EBDDA;
+    border-radius: 10px 5px;
+  background: rgba(89, 45, 180, 0.1);
+   position: relative;
+}
+
+.portable-infobox::before {
+    content: "";
+    border: 1px solid #5EBDDA;
+    border-radius: 10px 5px;
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.portable-infobox, .portable-infobox .pi-title, .portable-infobox .pi-caption {
+    border-radius: 10px 5px;
+}
+
+.quote {
+    position: relative;
+    width: auto;
+    border-radius: 10px 6px;
+    background: linear-gradient(360deg, lightgray 35%, white 50%);
+    border: 3px solid #AC6FDE;
+    color: black;
+    max-width: 300px;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.quote p {
+    font-weight: 500;
+}
+
+.portable-infobox {
+  --pi-secondary-background:#3E1283;
+}
+
+.pi-header, .pi-title {
+    color: #e7d4ff;
+}
+
+.pi-header {
+    width: 99%;
+    left: 1px;
+}
+
+.pi-secondary-background {
+    background:#3E1283;
+}
+
+.page__main .wds-tabs__tab.wds-is-current .wds-tabs__tab-label {
+    color: #e7d4ff;
+}
+
+.page__main .wds-tabs__tab.wds-is-current, 
+.page__main .wds-tabs__tab:not(.wds-is-current):hover, 
+.page__main .wds-tabs__tab.wds-is-current a, 
+.page__main .wds-tabs__tab:not(.wds-is-current) a:hover {
+    color: #e7d4ff;
+}
+
+.pi-data-label.pi-secondary-font {
+    color: #e7d4ff !important;
+}
