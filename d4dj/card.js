@@ -26,3 +26,8 @@ function addCategories(){
     })(jQuery, mw);
 
 }
+
+var cssStyle = document.createElement('link');
+cssStyle.href = 'https://vixhr.github.io/mediawiki/d4dj/card.css';
+cssStyle.rel = 'stylesheet';
+document.head.appendChild(cssStyle);
