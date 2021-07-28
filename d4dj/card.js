@@ -5,27 +5,23 @@ $( document ).ready(function() {
         $('body[class*="Cards"] .quote').addClass('cardQuote');
 });
 
-// addcategories - code creds jeaoq
-function addCategories(){
-    (function($, mw) {
-    var fn = function() {
-        var cats = mw.config.get('wgCategories'), newClasses;
-        if (cats) {
-        newClasses = $.map(cats, function(el) {
-            return 'cat-' + encodeURIComponent(el.replace(/[ .]/g, '_')).replace(/%/g, '_');
-        }).join(' ');
-        $(document.body).addClass(newClasses);
-        // console.log(newClasses);
-        }
-    };
-    if (document.body) {
-        fn();
-    } else {
-        $(fn);
+// addcategories 
+(function($, mw) {
+  var fn = function() {
+    var cats = mw.config.get('wgCategories'), newClasses;
+    if (cats) {
+      newClasses = $.map(cats, function(el) {
+        return 'cat-' + encodeURIComponent(el.replace(/[ .]/g, '_')).replace(/%/g, '_');
+      }).join(' ');
+      $(document.body).addClass(newClasses);
     }
-    })(jQuery, mw);
-
-}
+  };
+  if (document.body) {
+    fn();
+  } else {
+    $(fn);
+  }
+})(jQuery, mw);
 
 var cssStyle = document.createElement('link');
 cssStyle.href = 'https://vixhr.github.io/mediawiki/d4dj/card.css';
