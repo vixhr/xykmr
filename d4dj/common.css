@@ -1,0 +1,34 @@
+body.skin-fandomdesktop {
+	background-image:url('https://static.wikia.nocookie.net/d4dj/images/5/50/Wiki-background/revision/latest?cb=20200208183126');
+	background-attachment: fixed;
+	background-size: 100%;
+
+}
+
+.page__main, .page__right-rail {
+	background:none;
+}
+
+.page__main {
+	background:rgba(0,0,0,0.6);
+}
+
+.page__right-rail {
+	--right-rail-background-color:rgba(0,0,0,0.6);
+    background-color:rgba(0,0,0,0.6);
+}
+
+.toc, section.community-page-card-module {
+    background: rgba(26, 0, 23, 0.4);
+}
+
+.wds-dropdown__content, .wds-dropdown-level-2__content, div#sticky-toc.toc.sticky-toc {
+	background: rgba(26, 0, 23, 0.9);
+}
+.wds-dropdown__content .wds-list.wds-is-linked .wds-dropdown-level-2 .wds-dropdown-level-2__content {
+    background-color: rgba(26, 0, 23, 0.9);
+}
+
+.article-table, .WikiaTable {
+    background: rgba(0,0,0,0.5);
+}
