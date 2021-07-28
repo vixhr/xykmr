@@ -96,6 +96,7 @@ li.wds-tabs__tab:last-of-type {
 
 .wds-tabs__tab {
     background: linear-gradient(#B696FF, #8751FB);
+    border: 2px double #320480;
 }
 
 li.wds-tabs__tab, .wds-is-current {
