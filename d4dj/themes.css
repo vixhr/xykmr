@@ -1,0 +1,70 @@
+/**** infoboxes ****/
+.portable-infobox.pi-theme-d4djha, .portable-infobox.pi-theme-rinku, .portable-infobox.pi-theme-maho, .portable-infobox.pi-theme-muni, .portable-infobox.pi-theme-rei {
+    background: rgba(255, 110, 0, 0.1);
+}
+
+.portable-infobox.pi-theme-d4djrd, .portable-infobox.pi-theme-tsubaki, .portable-infobox.pi-theme-nagisa, .portable-infobox.pi-theme-hiiro, .portable-infobox.pi-theme-aoi {
+    background: rgba(42, 38, 121, 0.1);
+}
+
+.portable-infobox.pi-theme-d4djpm, .portable-infobox.pi-theme-saki, .portable-infobox.pi-theme-ibuki, .portable-infobox.pi-theme-towa, .portable-infobox.pi-theme-noa {
+    background: rgba(1, 173, 175, 0.1);
+}
+
+.portable-infobox.pi-theme-d4djpp, .portable-infobox.pi-theme-kyoko, .portable-infobox.pi-theme-shinobu, .portable-infobox.pi-theme-yuka, .portable-infobox.pi-theme-esora {
+    background: rgba(33, 33, 33,0.1);
+}
+
+.portable-infobox.pi-theme-d4djm4, .portable-infobox.pi-theme-rika, .portable-infobox.pi-theme-marika, .portable-infobox.pi-theme-saori, .portable-infobox.pi-theme-dalia {
+    background: rgba(253, 211, 19,0.1);
+}
+
+.portable-infobox.pi-theme-d4djll, .portable-infobox.pi-theme-miyu, .portable-infobox.pi-theme-haruna, .portable-infobox.pi-theme-kurumi, .portable-infobox.pi-theme-miiko {
+    background: rgba(238, 134, 179,0.1);
+}
+/*************************************************/
+.portable-infobox.pi-theme-boxrd, .portable-infobox.pi-theme-boxtsubaki, .portable-infobox.pi-theme-boxnagisa, .portable-infobox.pi-theme-boxhiiro, .portable-infobox.pi-theme-boxaoi {
+    background: rgba(42, 38, 121, 0.1);
+}
+
+.portable-infobox.pi-theme-boxm4, .portable-infobox.pi-theme-boxrika, .portable-infobox.pi-theme-boxmarika, .portable-infobox.pi-theme-boxsaori, .portable-infobox.pi-theme-boxdalia {
+    background: rgba(253, 211, 19,0.1);
+}
+
+.portable-infobox.pi-theme-boxpm, .portable-infobox.pi-theme-boxsaki, .portable-infobox.pi-theme-boxibuki, .portable-infobox.pi-theme-boxtowa, .portable-infobox.pi-theme-boxnoa {
+   box-sizing: border-box;
+   float: none;
+   margin: 0;
+   width: auto;
+   background: rgba(1, 173, 175, 0.1);
+}
+
+.portable-infobox.pi-theme-boxll, .portable-infobox.pi-theme-boxmiyu, .portable-infobox.pi-theme-boxharuna, .portable-infobox.pi-theme-boxkurumi, .portable-infobox.pi-theme-boxmiiko {
+   background: rgba(238, 134, 179,0.1);
+}
+
+.portable-infobox.pi-theme-boxha, .portable-infobox.pi-theme-boxrinku, .portable-infobox.pi-theme-boxmaho, .portable-infobox.pi-theme-boxmuni, .portable-infobox.pi-theme-boxrei {
+    background: rgba(255, 110, 0, 0.1);
+}
+
+.portable-infobox.pi-theme-boxpp, .portable-infobox.pi-theme-boxkyoko, .portable-infobox.pi-theme-boxshinobu, .portable-infobox.pi-theme-boxyuka, .portable-infobox.pi-theme-boxesora {
+    background: rgba(33, 33, 33,0.1);
+}
+
+a[href$=":Kasuga_Haruna"], a[href$="/Kasuga_Haruna"] {
+    text-shadow:none;
+}
+
+a[href$=":Peaky_P-key"], a[href$="/Peaky_P-key"] {
+	color:gray!important;
+	text-shadow:none;
+}
+
+a[href$=":RONDO"], a[href$="/RONDO"] {
+	text-shadow:none;
+}
+
+a[href$=":Aoyagi_Tsubaki"], a[href$="/Aoyagi_Tsubaki"] {
+    color: #191387 !important;
+    text-shadow: 0 0 0.01px lightgrey, 0 0 0.01px lightgrey;
+}
