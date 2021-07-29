@@ -112,12 +112,9 @@ hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin-bottom:10px;
 }
 
-#text12 mark {
-    background-color: rgba(103,91,167,0.302);
-}
-
 mark {
-    background-color: rgba(144,144,144,0.25);
+    background-color: rgba(103,91,167,0.302);
+    color:white;
 }
 
 ol, ul {
@@ -141,6 +138,7 @@ ol, ul {
 #buttons02 .button {
     background-color: #2D2847;
     color: #FFFFFF;
+    text-decoration:none;
 }
 
 #buttons02 li {
