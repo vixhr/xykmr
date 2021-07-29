@@ -215,3 +215,11 @@ a {
 *, *:before, *:after {
     box-sizing: border-box;
 }
+
+.image a, image span {
+    position: relative;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top:13px;
+}
