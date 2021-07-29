@@ -6,11 +6,6 @@ body {
     overflow-x: hidden;
     background-color: #000000;
     color:#fff !important;   
-    background-image: url(https://xdrichan.carrd.co/assets/images/container01.jpg?v=91d9a1db);
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
 }
 
 #wrapper {
@@ -95,40 +90,11 @@ hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 *, *:before, *:after {
   box-sizing:border-box;
 }
-
-#container01.columns > .wrapper > .inner > *:first-child {
-    margin-left: -2rem;
-}
-
-#container01 > .wrapper > .inner > :nth-child(1) {
-    width: calc(50% + 1rem);
-}
-
-#container01.columns > .wrapper > .inner > * {
-    -moz-flex-shrink: 0;
-    -webkit-flex-shrink: 0;
-    -ms-flex-shrink: 0;
-    flex-shrink: 0;
-    -moz-flex-grow: 0;
-    -webkit-flex-grow: 0;
-    -ms-flex-grow: 0;
-    flex-grow: 0;
-    max-width: 100%;
-    padding: 0 0 0 2rem;
-}
-
-#container01.columns > .wrapper > .inner > * > *:last-child {
-    margin-bottom: 0 !important;
-}
-
-#container01.columns > .wrapper > .inner > * > *:first-child {
-    margin-top: 0 !important;
-}
-
-#image02 img {
-    width: 95rem;
+#image07 img {
+    width: 26.5rem;
     border-radius: 0.5rem;
 }
+
 
 .image img {
     width: 100%;
@@ -189,6 +155,19 @@ ol, ul {
 
 #buttons02 .button:hover {
     background-color: #675BA7 !important;
+}
+#buttons02 li a {
+    display: flex;
+    width: auto;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    vertical-align: middle;
+    padding: 0 0.875rem;
+    font-size: 1em;
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-weight: 400;
+    border-radius: 0.25rem;
+    direction: var(--site-language-direction);
 }
 
 #text11 {
