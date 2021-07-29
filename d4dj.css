@@ -284,3 +284,7 @@ ol, ul {
     font-weight: 400;
     text-shadow: 0.188rem 0rem 0rem #5d5396;
 }
+
+*, *:before, *:after, body::before, body::after {
+    box-sizing: border-box;
+}
