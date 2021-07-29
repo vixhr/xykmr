@@ -187,6 +187,7 @@ hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     line-height: 0.75;
     font-weight: 700;
     text-shadow: 0.188rem 0rem 0rem #675ba7;
+    margin-bottom:10px;
 }
 
 #text09 mark {
@@ -283,6 +284,7 @@ ol, ul {
     line-height: 0.75;
     font-weight: 400;
     text-shadow: 0.188rem 0rem 0rem #5d5396;
+    margin: 12px 0 10px 0;
 }
 
 *, *:before, *:after, body::before, body::after {
