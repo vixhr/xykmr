@@ -1,0 +1,17 @@
+.wds-tabs__tab.wds-is-current {
+    box-shadow: none!important;
+}
+.wds-tabs__tab-label {
+  height: 20px;
+}
+
+.mw-parser-output .wds-tabs__tab-label>a {
+    color: black;
+}
+
+.wds-tabs__tab {
+    background: #c3e6f9;
+    margin-right: 2px;
+    border: 1px solid #ccc;
+}
+
