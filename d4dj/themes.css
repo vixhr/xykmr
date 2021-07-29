@@ -32,10 +32,6 @@
 }
 
 .portable-infobox.pi-theme-boxpm, .portable-infobox.pi-theme-boxsaki, .portable-infobox.pi-theme-boxibuki, .portable-infobox.pi-theme-boxtowa, .portable-infobox.pi-theme-boxnoa {
-   box-sizing: border-box;
-   float: none;
-   margin: 0;
-   width: auto;
    background: rgba(1, 173, 175, 0.1);
 }
 
