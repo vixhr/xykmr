@@ -1,0 +1,52 @@
+.wds-tabs__tab:not(.wds-is-current):hover {
+    filter: grayscale(30%);
+    transition-duration: 0.3s;
+}
+
+.wds-tabs__tab-label {
+	height:20px;
+}
+
+li.wds-tabs__tab:first-child {
+	border-left:1px solid rgb(0 0 0 / 10%);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+li.wds-tabs__tab:last-of-type {
+    border-top-right-radius: 3px;
+    border: 1px double #320480;
+    border-bottom-right-radius: 3px;
+}
+
+.wds-tabs__tab {
+    background: linear-gradient(#B696FF, #8751FB);
+    border: 2px double #320480;
+}
+
+li.wds-tabs__tab, .wds-is-current {
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 75%);
+    border-top: 1px solid rgb(0 0 0/ 20%);
+}
+
+li.wds-tabs__tab.wds-is-current {
+    box-shadow: 1px 1px #320480;
+    transform: translate(1px, 1px);
+    color: white!important;
+    border: 1px double #320480;
+    background: #CA2CC9;
+}
+
+.wds-tabs__wrapper.with-bottom-border {
+    margin-bottom: 2px;
+}
+
+.page__main .wds-tabs__tab.wds-is-current, 
+.page__main .wds-tabs__tab:not(.wds-is-current):hover, .page__main .wds-tabs__tab.wds-is-current a, .page__main .wds-tabs__tab:not(.wds-is-current) a:hover {
+    color:white;
+}
+
+.wds-tabs, .wds-tabs__wrapper {
+    --wds-tab-color: white;
+    --wds-tab-color--active: white
+}
