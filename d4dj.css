@@ -297,3 +297,7 @@ a {
     color: inherit;
     text-decoration: underline;
 }
+
+#container01 > .wrapper > .inner > :nth-child(2) {
+    width: calc(50% + 1rem);
+}
