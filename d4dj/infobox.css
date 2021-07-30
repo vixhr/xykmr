@@ -41,17 +41,6 @@
     background:#3E1283;
 }
 
-.page__main .wds-tabs__tab.wds-is-current .wds-tabs__tab-label {
-    color: #e7d4ff;
-}
-
-.page__main .wds-tabs__tab.wds-is-current, 
-.page__main .wds-tabs__tab:not(.wds-is-current):hover, 
-.page__main .wds-tabs__tab.wds-is-current a, 
-.page__main .wds-tabs__tab:not(.wds-is-current) a:hover {
-    color: #e7d4ff;
-}
-
 .pi-data-label.pi-secondary-font {
     color: #e7d4ff !important;
 }
