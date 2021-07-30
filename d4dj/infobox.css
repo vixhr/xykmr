@@ -71,3 +71,51 @@
 .portable-infobox.pi-theme-boxmuni .pi-image-collection .wds-tabs__tab.wds-is-current .wds-tabs__tab-label{
 	color:#e7d4ff;
 }
+
+/*** boxes ***/
+.portable-infobox.pi-theme-boxd4dj2, 
+/* card attributes */ 
+.portable-infobox.pi-theme-boxcool, .portable-infobox.pi-theme-boxstreet, .portable-infobox.pi-theme-boxparty, .portable-infobox.pi-theme-boxelegant 
+/* rondo */ 
+.portable-infobox.pi-theme-boxrd, .portable-infobox.pi-theme-boxtsubaki, .portable-infobox.pi-theme-boxnagisa, .portable-infobox.pi-theme-boxhiiro, 
+.portable-infobox.pi-theme-boxaoi, 
+/* ha */  
+.portable-infobox.pi-theme-boxha, .portable-infobox.pi-theme-boxrinku, .portable-infobox.pi-theme-boxmaho, .portable-infobox.pi-theme-boxmuni, 
+.portable-infobox.pi-theme-boxrei, 
+/* m4 */ .portable-infobox.pi-theme-boxm4, .portable-infobox.pi-theme-boxrika, 
+.portable-infobox.pi-theme-boxmarika, .portable-infobox.pi-theme-boxsaori, 
+.portable-infobox.pi-theme-boxdalia,
+/* pmaiden */ .portable-infobox.pi-theme-boxpm, 
+.portable-infobox.pi-theme-boxsaki, .portable-infobox.pi-theme-boxibuki, .portable-infobox.pi-theme-boxtowa, .portable-infobox.pi-theme-boxnoa, 
+/* ll */ 
+.portable-infobox.pi-theme-boxll, .portable-infobox.pi-theme-boxmiyu, .portable-infobox.pi-theme-boxharuna, .portable-infobox.pi-theme-boxkurumi, 
+.portable-infobox.pi-theme-boxmiiko 
+/* pk */ 
+.portable-infobox.pi-theme-boxpp, 
+.portable-infobox.pi-theme-boxkyoko, .portable-infobox.pi-theme-boxshinobu, .portable-infobox.pi-theme-boxyuka, .portable-infobox.pi-theme-boxesora {
+	margin:3px;
+}
+
+.portable-infobox.pi-theme-boxd4dj2 h2, 
+/* card attributes */ 
+.portable-infobox.pi-theme-boxcool h2, .portable-infobox.pi-theme-boxstreet h2, .portable-infobox.pi-theme-boxparty h2, .portable-infobox.pi-theme-boxelegant h2, 
+/* rondo */ 
+.portable-infobox.pi-theme-boxrd h2, .portable-infobox.pi-theme-boxtsubaki h2, .portable-infobox.pi-theme-boxnagisa h2, .portable-infobox.pi-theme-boxhiiro h2, 
+.portable-infobox.pi-theme-boxaoi h2, 
+/* ha */  
+.portable-infobox.pi-theme-boxha h2,  .portable-infobox.pi-theme-boxrinku h2, 
+.portable-infobox.pi-theme-boxmaho h2, .portable-infobox.pi-theme-boxmuni h2, .portable-infobox.pi-theme-boxrei h2, 
+/* m4 */ 
+.portable-infobox.pi-theme-boxm4 h2, .portable-infobox.pi-theme-boxrika h2, .portable-infobox.pi-theme-boxmarika h2, .portable-infobox.pi-theme-boxsaori h2, 
+.portable-infobox.pi-theme-boxdalia h2, 
+/* pmaiden */ 
+.portable-infobox.pi-theme-boxpm h2,.portable-infobox.pi-theme-boxsaki h2, .portable-infobox.pi-theme-boxibuki h2, .portable-infobox.pi-theme-boxtowa h2, 
+.portable-infobox.pi-theme-boxnoa h2,
+/* ll */ 
+.portable-infobox.pi-theme-boxll h2, .portable-infobox.pi-theme-boxmiyu h2, .portable-infobox.pi-theme-boxharuna h2, .portable-infobox.pi-theme-boxkurumi h2,
+.portable-infobox.pi-theme-boxmiiko h2, 
+/* pk */ 
+.portable-infobox.pi-theme-boxpp h2, 
+.portable-infobox.pi-theme-boxkyoko h2, .portable-infobox.pi-theme-boxshinobu h2, .portable-infobox.pi-theme-boxyuka h2, .portable-infobox.pi-theme-boxesora h2 {
+    border-radius: 10px 5px;
+}
