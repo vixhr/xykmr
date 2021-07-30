@@ -14,7 +14,7 @@
     border-radius: 10px 5px;
 }
 
-.quote {
+/* .quote {
     position: relative;
     width: auto;
     border-radius: 10px 6px;
@@ -27,11 +27,7 @@
     text-align: center;
     padding-top: 1px;
     padding-bottom: 1px;
-}
-
-.quote p {
-    font-weight: 500;
-}
+} */
 
 .portable-infobox {
   --pi-secondary-background:#3E1283;
@@ -39,11 +35,6 @@
 
 .pi-header, .pi-title {
     color: #e7d4ff;
-}
-
-.pi-header {
-    width: 99%;
-    left: 1px;
 }
 
 .pi-secondary-background {
