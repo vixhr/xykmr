@@ -1,0 +1,25 @@
+ul li.wds-tabs__tab:before {
+    content: ""!important;
+    color: transparent!important;
+}
+
+.pi-data[data-source="schedule"] .pi-data-value.pi-font {
+    width: 780px;
+}
+
+.pi-data[data-source="schedule"] {
+    position: relative;
+}
+
+.pi-theme-relay {
+    width: 100%;
+}
+
+.pi-theme-relay img {
+    width: 80%;
+}
+
+.pi-theme-relay .wds-is-current {
+  color:white;
+  box-shadow:m;
+}
