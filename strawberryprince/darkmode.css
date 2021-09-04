@@ -1,0 +1,41 @@
+.theme-fandomdesktop-dark .WikiaBarCollapseWrapper .wikia-bar-collapse, .theme-fandomdesktop-dark .WikiaBarWrapper {
+	background-color:black;
+}
+
+.theme-fandomdesktop-dark .WikiaBarWrapper .tools-menu {
+	background:black;
+}
+
+.theme-fandomdesktop-dark .WikiaBarWrapper .tools-menu>li>a {
+	color:white;
+}
+
+.theme-fandomdesktop-dark .quote {
+    border-color:#ff46e3!important;
+}
+
+.theme-fandomdesktop-dark :root {
+ --theme-fd-color:#2fffff;
+ --theme-fd-color-secondary:#ff46e3;
+}
+.theme-fandomdesktop-light :root {
+ --theme-fd-color:#fe4e5f;
+}
+
+.theme-fandomdesktop-dark .WikiaBarWrapper .tools-menu {
+	background:transparent;
+}
+
+.theme-fandomdesktop-dark .page-content h2 {
+    border-bottom: 1px solid #ff46e3;
+    padding:4px 0;
+}
+
+.theme-fandomdesktop-dark .mw-headline {
+	color:#2fffff !important;
+	font-family:'M PLUS 1p';
+}
+
+.theme-fandomdesktop-dark .mbox {
+	background-color:black;
+}
