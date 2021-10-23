@@ -4,6 +4,12 @@ body.skin-fandomdesktop {
 	background-size: 100%;
 
 }
+body.skin-fandomdesktop {
+	font-family:Noto Sans JP,sans-serif;
+}
+.theme-fandomdesktop-light .fandom-community-header__image img {
+    filter: drop-shadow(0 0 6px black);
+}
 
 .page__main, .page__right-rail {
 	background:none;
@@ -31,4 +37,16 @@ body.skin-fandomdesktop {
 
 .article-table, .WikiaTable {
     background: rgba(0,0,0,0.5);
+}
+
+.mw-notification, .wds-dialog__wrapper {
+    background: var(--theme-page-background-color);
+}
+
+.theme-fandomdesktop-light .wds-dropdown.wds-open-to-right .wds-dropdown__content, .theme-fandomdesktop-light .wds-dropdown__content, .theme-fandomdesktop-light .wds-dropdown-level-2__content {
+	background:#d4c3db!important;
+}
+
+.theme-fandomdesktop-dark .wds-dropdown.wds-open-to-right .wds-dropdown__content, .theme-fandomdesktop-dark .wds-dropdown__content, .theme-fandomdesktop-dark .wds-dropdown-level-2__content, .theme-fandomdesktop-dark div#sticky-toc.toc.sticky-toc {
+    background:rgba(26,0,23,0.9)!important;
 }
