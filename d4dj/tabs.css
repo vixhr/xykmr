@@ -1,3 +1,7 @@
+.page__main .wds-tabs {
+    display: flex; /* inline-flex causes the tabs to be aligned to the left sometimes */
+}
+
 .wds-tabs__tab:not(.wds-is-current):hover {
     filter: grayscale(30%);
     transition-duration: 0.3s;
