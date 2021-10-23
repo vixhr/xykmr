@@ -1,0 +1,44 @@
+/* card frame */
+.cat-Cards .wds-is-current p {
+    position: relative;
+}
+
+.cat-4_E2_9C_B0 .wds-is-current p::before { background: url(https://www.d4db.xyz/assets/chara/frame/frame4.png)no-repeat center; }
+.cat-3_E2_9C_B0 .wds-is-current p::before { background: url(https://www.d4db.xyz/assets/chara/frame/frame3.png)no-repeat center; }
+
+.cat-4_E2_9C_B0 .wds-is-current p:first-child::before, .cat-3_E2_9C_B0 .wds-is-current p:first-child::before {
+    content: "";
+    display: inline-block;
+    left: 61px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 705px;
+    background-size: 100% 100%;
+}
+
+.cat-Elegant_Cards .wds-is-current p::after { background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/type/icon_elegant.png)no-repeat; }
+.cat-Street_Cards .wds-is-current p::after { background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/type/icon_street.png)no-repeat; }
+.cat-Party_Cards .wds-is-current p::after { background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/type/icon_party.png)no-repeat; }
+.cat-Cute_Cards .wds-is-current p::after { background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/type/icon_cute.png)no-repeat; }
+.cat-Cool_Cards .wds-is-current p::after { background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/type/icon_cool.png)no-repeat; }
+
+.cat-3_E2_9C_B0 .wds-is-current p:first-child::after, .cat-4_E2_9C_B0 .wds-is-current p:first-child::after {
+    content: "";
+    display: inline-block;
+    right: 68px;
+    position: absolute;
+    bottom: 0;
+    top: 4px;
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+}
+
+.cat-3_E2_9C_B0 .wds-is-current p:first-child img, .cat-4_E2_9C_B0 .wds-is-current p:first-child img {
+    border-radius: 8px;
+}
+/********/
+.cat-Card_Episodes .pi-data-value {
+    font-size: 14px;
+}
